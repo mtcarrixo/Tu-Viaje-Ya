@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tu viaje ya</title>
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -14,8 +16,8 @@
         <h1>Tu viaje ya</h1>
     </header>
 
-        <div class="container">
-            <header class="header">
+        <div class="container" >
+            <header  class="header" data-aos="fade-up" data-aos-duration="1400">
                 <h4>Descubrí Paraísos</h4>
 
                 <div>
@@ -34,7 +36,9 @@
             </header>
 
             <main class="content">
-                <article class="article">
+                <article class="article" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <h1>titulo</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt unde eius doloremque soluta reiciendis earum fuga omnis, sit debitis repellat!</p>
 
@@ -43,7 +47,9 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, deleniti.</p>
                 </article>
 
-                <article class="article">
+                <article class="article" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <h1>titulo</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt unde eius doloremque soluta reiciendis earum fuga omnis, sit debitis repellat!</p>
 
@@ -52,7 +58,9 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, deleniti.</p>
                 </article>
 
-                <article class="article">
+                <article class="article" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <h1>titulo</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt unde eius doloremque soluta reiciendis earum fuga omnis, sit debitis repellat!</p>
 
@@ -62,11 +70,13 @@
                 </article>
             </main>
 
-            <aside class="barralat">
+            <aside class="barralat"  data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
                 <div>
                     <img src="./assets/Ecuador.jpg" alt="">
                     <p>Lorem ipsum, dolor sit amet consectetur</p> <p>adipisicing elit. Aliquid, voluptate!</p> 
-                </div>
+                </div >
 
                 <div>
                     <img src="./assets/Michigan.jpg" alt="">
@@ -99,5 +109,10 @@
                 <h4>Esta página fue producto de MtX.Co - Copyright 2022 - Tu viaje ya. - Derechos reservados</h4>
             </footer>
         </div>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
+
+
